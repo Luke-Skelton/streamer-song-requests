@@ -25,7 +25,7 @@ Download the streamer-song-requests folder and unzip it to a memorable location,
 You need to tell the app about your secret keys and your playlist.
 
 1. **Fill in your API Keys:**  
-   * In the project folder, find the file named .env.  
+   * In the project folder, find the file named .env-example, rename to.env.  
    * Open it with a simple text editor (like Notepad or TextEdit).  
    * Copy your **Client ID** and **Client Secret** from the Spotify page into this file.  
    * Save and close the file. It should look like this:  
