@@ -13,12 +13,12 @@ You only need to do this part **once**.
 3. Give it a name like My Twitch Songs and a description. Check the boxes to agree to the terms.  
 4. You will now see a **Client ID** and a **Client Secret**. Keep this page open\!  
 5. Click the green **"Edit Settings"** button.  
-6. In the box that says **"Redirect URIs"**, type exactly this: http://localhost:8888/callback  
+6. In the box that says **"Redirect URIs"**, type exactly this: http://127.0.0.1:8888/callback  
 7. Click **"Add"**, then scroll down and click **"Save"**.
 
 ### **Step 2: Download and Unzip the Project**
 
-Download the spotify-song-requests folder and unzip it to a memorable location, like your Desktop.
+Download the streamer-song-requests folder and unzip it to a memorable location, like your Desktop.
 
 ### **Step 3: Fill in Your Details**
 
@@ -31,7 +31,7 @@ You need to tell the app about your secret keys and your playlist.
    * Save and close the file. It should look like this:  
      SPOTIPY\_CLIENT\_ID='YOUR\_CLIENT\_ID\_HERE'  
      SPOTIPY\_CLIENT\_SECRET='YOUR\_CLIENT\_SECRET\_HERE'  
-     SPOTIPY\_REDIRECT\_URI='http://localhost:8888/callback'
+     SPOTIPY\_REDIRECT\_URI='http://127.0.0.1:8888/callback'
 
 2. **Fill in your Playlist Info:**  
    * Find the file named config.py and open it.  
